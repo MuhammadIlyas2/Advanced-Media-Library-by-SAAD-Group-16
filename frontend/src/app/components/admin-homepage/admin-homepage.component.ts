@@ -72,7 +72,7 @@ export class AdminHomepageComponent {
       this.router.navigate(['/inventory_management']);
     }
     else if(tileName === 'Add New Media'){
-      this.router.navigate(['/media-addition-method'])
+      this.router.navigate(['/media_addition_method'])
     }
     else {
       alert(`This will take you to ${tileName}`);
